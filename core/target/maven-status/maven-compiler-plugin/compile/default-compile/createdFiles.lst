@@ -1,0 +1,4 @@
+br/com/lsena/core/model/Course.class
+br/com/lsena/core/model/Course$CourseBuilder.class
+br/com/lsena/core/model/AbstractEntity.class
+br/com/lsena/core/repository/CourseRepository.class
