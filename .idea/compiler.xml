@@ -10,10 +10,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="core" />
-        <module name="course" />
         <module name="gateway" />
+        <module name="token" />
         <module name="auth" />
+        <module name="course" />
+        <module name="core" />
         <module name="discovery" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
       <module name="discovery" target="11" />
       <module name="gateway" target="11" />
       <module name="lsena-microservices" target="1.8" />
+      <module name="token" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,6 +35,7 @@
       <module name="course" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="token" options="-parameters" />
     </option>
   </component>
 </project>

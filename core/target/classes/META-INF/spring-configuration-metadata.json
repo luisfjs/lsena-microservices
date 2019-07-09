@@ -28,7 +28,7 @@
       "name": "jwt.config.header.prefix",
       "type": "java.lang.String",
       "sourceType": "br.com.lsena.core.property.JwtConfiguration$Header",
-      "defaultValue": "Bearer"
+      "defaultValue": "Bearer "
     },
     {
       "name": "jwt.config.login-url",

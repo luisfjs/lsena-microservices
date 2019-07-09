@@ -17,6 +17,7 @@ import java.util.Collection;
 import static org.springframework.security.core.authority.AuthorityUtils.commaSeparatedStringToAuthorityList;
 
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
+
 @Service
 @Slf4j
 public class UserDetailsServiceImpl implements UserDetailsService {
@@ -44,7 +45,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
         @Override
         public Collection<? extends GrantedAuthority> getAuthorities() {
-            return commaSeparatedStringToAuthorityList("ROLE"+this.getRole());
+            return commaSeparatedStringToAuthorityList("ROLE_"+this.getRole());
         }
 
         @Override

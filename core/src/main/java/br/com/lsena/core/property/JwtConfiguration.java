@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.NestedConfigurationProperty;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
@@ -13,6 +14,7 @@ import org.springframework.context.annotation.Configuration;
 @ToString
 public class JwtConfiguration {
     private String loginUrl = "/login/**";
+    @NestedConfigurationProperty
     private Header header = new Header();
     private int expiration = 3600;
     private String privateKey = "SMyRF6qMnsPxs1LW0tcnJmyDbDhi3fQe";
@@ -22,6 +24,6 @@ public class JwtConfiguration {
     @Setter
     public static class Header{
         private String name = "Authorization";
-        private String prefix = "Bearer";
+        private String prefix = "Bearer ";
     }
 }
