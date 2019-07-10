@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="fileExclusions">
+      <list>
+        <option value="DIRECTORY:auth/.mvn" />
+        <option value="DIRECTORY:.idea" />
+        <option value="FILE:auth/.mvn/wrapper/MavenWrapperDownloader.java" />
+        <option value="FILE:course/.mvn/wrapper/MavenWrapperDownloader.java" />
+        <option value="FILE:discovery/.mvn/wrapper/MavenWrapperDownloader.java" />
+        <option value="FILE:gateway/.mvn/wrapper/MavenWrapperDownloader.java" />
+      </list>
+    </option>
+  </component>
+</project>

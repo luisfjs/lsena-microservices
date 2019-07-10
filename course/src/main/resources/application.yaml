@@ -19,9 +19,14 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+
   jmx:
     enabled: false
   datasource:
     url: jdbc:mysql://localhost:3306/devdojo?allowPublicKeyRetrival=true&SslMode=DISABLED
     username: root
     password: lsena
+
+jwt:
+  config:
+    type: signed

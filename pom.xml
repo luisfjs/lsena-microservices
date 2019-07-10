@@ -21,10 +21,16 @@
 
     <properties>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
-        <nimbus-jose.verion>7.1</nimbus-jose.verion>
+        <nimbus-jose.version>7.1</nimbus-jose.version>
+        <commons-lang3.version>3.8.1</commons-lang3.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -84,7 +90,7 @@
         <dependency>
             <groupId>com.nimbusds</groupId>
             <artifactId>nimbus-jose-jwt</artifactId>
-            <version>${nimbus-jose.verion}</version>
+            <version>${nimbus-jose.version}</version>
         </dependency>
 
     </dependencies>
