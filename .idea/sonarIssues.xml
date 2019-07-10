@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell">
           <value>
             <set />
@@ -38,12 +43,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/java/academy/devdojo/youtube/auth/security/config/SecurityCredentialsConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/java/academy/devdojo/youtube/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/course/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/discovery/src/main/java/academy/devdojo/youtube/discovery/DiscoveryApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/gateway/src/main/java/academy/devdojo/youtube/gateway/GatewayApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/auth/pom.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/auth/src/main/java/br/com/lsena/auth/AuthApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/main/java/br/com/lsena/auth/docs/SwaggerConfig.java">
           <value>
             <set />
           </value>
@@ -78,6 +118,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/br/com/lsena/core/docs/BaseSwagerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/core/src/main/java/br/com/lsena/core/model/ApplicationUser.java">
           <value>
             <set />
@@ -94,6 +139,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/course/src/main/java/br/com/lsena/course/CourseApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/course/src/main/java/br/com/lsena/course/docs/SwaggerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/course/src/main/java/br/com/lsena/course/endpoint/controller/CourseController.java">
           <value>
             <set />
           </value>
