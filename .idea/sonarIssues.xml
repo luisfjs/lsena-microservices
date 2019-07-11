@@ -48,12 +48,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/java/academy/devdojo/youtube/auth/AuthApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/java/academy/devdojo/youtube/auth/endpoint/controller/UserInfoController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/java/academy/devdojo/youtube/auth/security/config/SecurityCredentialsConfig.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/java/academy/devdojo/youtube/auth/security/filter/JwtUsernameAndPasswordAuthenticationFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/java/academy/devdojo/youtube/auth/security/user/UserDetailsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/auth/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/course/pom.xml">
           <value>
             <set />
           </value>
@@ -69,6 +94,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../devdojo-microservices/gateway/src/main/java/academy/devdojo/youtube/gateway/GatewayApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/token/src/main/java/academy/devdojo/youtube/security/config/SecurityTokenConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/token/src/main/java/academy/devdojo/youtube/security/filter/JwtTokenAuthorizationFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/token/src/main/java/academy/devdojo/youtube/security/token/converter/TokenConverter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/token/src/main/java/academy/devdojo/youtube/security/token/creator/TokenCreator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../devdojo-microservices/token/src/main/java/academy/devdojo/youtube/security/util/SecurityContextUtil.java">
           <value>
             <set />
           </value>
@@ -99,6 +154,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/auth/src/main/java/br/com/lsena/auth/security/flter/JwtUserNameAndPasswordAuthenticationFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/auth/src/main/java/br/com/lsena/auth/security/flter/JwtUsernameAndPasswordAuthenticationFilter.java">
           <value>
             <set />
           </value>

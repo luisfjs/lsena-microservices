@@ -1,7 +1,6 @@
 package br.com.lsena.auth.endpoint.controller;
 
 import br.com.lsena.core.model.ApplicationUser;
-import br.com.lsena.core.model.Course;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.http.HttpStatus;

@@ -16,24 +16,20 @@
 
     <properties>
         <java.version>11</java.version>
+        <lsena-core.version>1.0-SNAPSHOT</lsena-core.version>
+        <lsena-token.version>1.0-SNAPSHOT</lsena-token.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>br.com.lsena</groupId>
             <artifactId>core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${lsena-core.version}</version>
         </dependency>
         <dependency>
             <groupId>br.com.lsena</groupId>
             <artifactId>token</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>br.com.lsena</groupId>
-            <artifactId>auth</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
+            <version>${lsena-token.version}</version>
         </dependency>
     </dependencies>
 

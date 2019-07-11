@@ -23,7 +23,7 @@ import static java.util.Collections.emptyList;
 
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 @Slf4j
-public class JwtUserNameAndPasswordAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
+public class JwtUsernameAndPasswordAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     private final AuthenticationManager authenticationManager;
     private final JwtConfiguration jwtConfiguration;
     private final TokenCreator tokenCreator;
@@ -51,7 +51,7 @@ public class JwtUserNameAndPasswordAuthenticationFilter extends UsernamePassword
         log.info("Authentication was succesful for the user '{}', generating JWE token", auth.getName());
 
         SignedJWT signedJWT = tokenCreator.createSignedJWT(auth);
-        String encryptToekn = tokenCreator.encryptToekn(signedJWT);
+        String encryptToekn = tokenCreator.encryptToken(signedJWT);
 
         log.info("Token generated successfully, adding it to the response header");
 

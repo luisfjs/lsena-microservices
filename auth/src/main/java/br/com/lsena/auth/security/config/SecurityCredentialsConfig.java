@@ -1,6 +1,6 @@
 package br.com.lsena.auth.security.config;
 
-import br.com.lsena.auth.security.flter.JwtUserNameAndPasswordAuthenticationFilter;
+import br.com.lsena.auth.security.flter.JwtUsernameAndPasswordAuthenticationFilter;
 import br.com.lsena.core.property.JwtConfiguration;
 import br.com.lsena.security.config.SecurityTokenConfig;
 import br.com.lsena.security.filter.JwtTokenAuthorizationFilter;
@@ -33,7 +33,7 @@ public class SecurityCredentialsConfig extends SecurityTokenConfig {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .addFilter(new JwtUserNameAndPasswordAuthenticationFilter(authenticationManager(), jwtConfiguration, tokenCreator))
+                .addFilter(new JwtUsernameAndPasswordAuthenticationFilter(authenticationManager(), jwtConfiguration, tokenCreator))
                 .addFilterAfter(new JwtTokenAuthorizationFilter(jwtConfiguration, tokenConverter), UsernamePasswordAuthenticationFilter.class);
         super.configure(http);
     }
